@@ -17,9 +17,7 @@ export default function Introduce() {
                 alt="introduce"
             />
             <h1 className={utilsStyles.headingLg}>KIM TAEWAN</h1>
-            <p className={utilsStyles.p}>
-
-            </p>
+            <p className={utilsStyles.headingLg}>높은 가독성과 다양한 관점에서의 개발을 지향합니다.</p>
             <div className={styles.url}>
                 {URLS.url.map((u) => (
                     <div key={u.image}>

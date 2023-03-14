@@ -1,5 +1,6 @@
 .container {
     background-color: #35363A;
+
 }
 
 .project {
@@ -38,11 +39,11 @@
 
 @media screen and (max-width: 540px) {
     .project .body p {
-        font-size: 0.3rem;
+        font-size: 0.8rem;
     }
 
     .container {
-        padding: 50px 5% 100px 5%;
+        padding: 50px 5% 50px 5%;
     }
 
     .project {
@@ -82,7 +83,7 @@
 
 @media screen and (min-width: 541px) and (max-width: 900px) {
     .container {
-        padding: 50px 15% 100px 15%;
+        padding: 50px 15% 50px 15%;
     }
 
     .project .body p {
@@ -126,7 +127,7 @@
 
 @media screen and (min-width: 901px) {
     .container {
-        padding: 50px 15% 100px 15%;
+        padding: 50px 15% 50px 15%;
     }
 
     .project .body p {

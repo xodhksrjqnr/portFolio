@@ -1,0 +1,10 @@
+.container {
+    padding: 3%;
+    align-items: center;
+    justify-content : center;
+    display: flex;
+}
+
+.container .footerImg {
+
+}

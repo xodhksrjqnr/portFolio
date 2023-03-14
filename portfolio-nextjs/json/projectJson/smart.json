@@ -1,0 +1,23 @@
+{
+  "title" : "Smart - ToyProject",
+  "subtitle" : "2023.01 - 2023.02 (2인 개발)",
+  "thumbnail": "https://user-images.githubusercontent.com/115006670/218263799-29d52a9d-27d2-4d0c-b3bd-f3a1a89a37ce.gif",
+  "introduce": "간단한 형태의 쇼핑몰 웹 서비스를 구현한 프로젝트입니다.",
+  "functions" : [
+    "JWT 기반의 로그인, 로그아웃 인증 구현", "회원가입(이메일 인증)", "제품 등록 및 필터 조회", "제품 주문 취소 및 환불", "장바구니"
+  ],
+  "git": "https://github.com/xodhksrjqnr/toyProject-Smart",
+  "openURL": null,
+  "skills": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "icons": ["/images/skill/react.svg"]
+    },
+    {
+      "id": 4,
+      "name": "Deployment",
+      "icons": ["/images/footer/github.svg"]
+    }
+  ]
+}

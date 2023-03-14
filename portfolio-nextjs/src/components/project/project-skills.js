@@ -8,9 +8,11 @@ export default function ProjectSkills({skills}) {
                 {skills.map((skill)=> (
                     <tr key={skill.id}>
                         <td key={skill.name}><p>{skill.name}</p></td>
-                        <td key={skill.name + '_icon'}>
+                        <td key={skill.name + '_icon'} className={styles.skillImg}>
                             {skill.icons.map((icon) => (
-                                <Image key={icon} src={icon} width={40} height={40} alt={icon}/>
+                                <div key={icon}>
+                                    <Image src={icon} fill alt={icon}/>
+                                </div>
                             ))}
                         </td>
                     </tr>

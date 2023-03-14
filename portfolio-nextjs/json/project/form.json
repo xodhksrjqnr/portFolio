@@ -2,7 +2,9 @@
   "title" : "test - ToyProject",
   "subtitle" : "0000.00 - 0000.00 (?인 개발)",
   "thumbnail": "https://test.com/test.jpeg",
-  "introduce": "test",
+  "introduces": [
+    "test"
+  ],
   "functions" : [
     "func1", "func2", "func3"
   ],
@@ -22,12 +24,12 @@
     {
       "id": 3,
       "name": "Database",
-      "icons": ["/images/logo-custom/github.svg"]
+      "icons": ["/images/logo/github.svg"]
     },
     {
       "id": 4,
       "name": "Deployment",
-      "icons": ["/images/logo-custom/next-js.svg"]
+      "icons": ["/images/logo/next-js.svg"]
     }
   ]
 }

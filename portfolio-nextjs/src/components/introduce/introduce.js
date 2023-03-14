@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from '../../styles/introduce.module.css'
 import utilsStyles from '../../styles/utils.module.css'
+import URLS from "../../../json/introduce/introduce.json";
+import Link from "next/link";
 
 export default function Introduce() {
     return (
@@ -18,6 +20,15 @@ export default function Introduce() {
             <p className={utilsStyles.p}>
 
             </p>
+            <div className={styles.url}>
+                {URLS.url.map((u) => (
+                    <div key={u.image}>
+                        <Link href={u.link}>
+                            <Image src={u.image} width={40} height={40} alt={u.image}/>
+                        </Link>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 };

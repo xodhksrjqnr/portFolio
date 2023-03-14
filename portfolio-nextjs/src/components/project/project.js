@@ -16,7 +16,9 @@ export default function Project({project}) {
                     <Image src={project.thumbnail} fill alt={project.thumbnail}/>
                 </div>
                 <div className={styles.content}>
-                    <p>{project.introduce}</p>
+                    {project.introduces.map((paragraph) => (
+                        <p key={paragraph} className={styles.introduce}>{paragraph}</p>
+                    ))}
                     <p className={styles.projectP}>주요 기능</p>
                     {project.functions.map((func) => (
                         <p key={func}>• {func}</p>

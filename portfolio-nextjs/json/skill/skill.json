@@ -3,11 +3,11 @@
     {
       "type": "Language",
       "values": [
-        "/images/logo/java.svg"
+        "/images/logo/java.svg", "/images/logo/html.svg", "/images/logo/css.svg"
       ]
     },
     {
-      "type": "Framework",
+      "type": "Frame & Lib",
       "values": [
         "/images/logo/spring.svg", "/images/logo/react.svg", "/images/logo/next-js.svg"
       ]

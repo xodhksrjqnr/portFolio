@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
     .headingTitle {
         font-size: 1.0rem;
     }
@@ -13,28 +13,6 @@
 
     .headingLg {
         font-size: 0.8rem;
-    }
-
-    .title {
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (min-width: 401px) and (max-width: 540px) {
-    .headingTitle {
-        font-size: 1.5rem;
-    }
-
-    .headingSubTitle {
-        font-size: 0.2rem;
-    }
-
-    .heading2Xl {
-        font-size: 1.5rem;
-    }
-
-    .headingXl {
-        font-size: 1.25rem;
     }
 
     .title {
@@ -117,5 +95,5 @@
     letter-spacing: -0.05rem;
     color: black;
     text-align: center;
-    margin: 0 0 100px 0;
+    margin: 0 0 80px 0;
 }

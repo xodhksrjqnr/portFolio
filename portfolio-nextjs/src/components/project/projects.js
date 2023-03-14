@@ -1,7 +1,9 @@
 import styles from '../../styles/projects.module.css'
 import utilsStyles from '../../styles/utils.module.css'
 import Project from "@/components/project/project";
+
 import Smart from '../../../json/project/smart.json'
+import Portfolio from '../../../json/project/portfolio.json'
 
 export default function Projects() {
     return (
@@ -9,6 +11,7 @@ export default function Projects() {
             <div className={utilsStyles.title}>
                 <p className={utilsStyles.p}>PROJECTS</p>
             </div>
+            <Project project={Portfolio}/>
             <Project project={Smart}/>
         </div>
     )

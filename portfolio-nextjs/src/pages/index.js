@@ -4,7 +4,6 @@ import Introduce from "@/components/introduce/introduce";
 import Header from "@/components/header";
 import Skills from "@/components/skill/skills";
 import Projects from "@/components/project/projects";
-import Footer from "@/components/footer/footer";
 import Profile from "@/components/profile/profile";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,7 +22,6 @@ export default function Home() {
                 <Profile/>
                 <Skills/>
                 <Projects/>
-                <Footer/>
             </main>
         </>
     )

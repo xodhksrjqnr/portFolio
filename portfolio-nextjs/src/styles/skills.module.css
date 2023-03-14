@@ -4,7 +4,7 @@
     }
 
     .list .content .img {
-        margin: 0 5px 0 5px;
+        margin: 5px;
         width: 60px;
         height: 60px;
     }
@@ -16,7 +16,7 @@
     }
 
     .list .content .img {
-        margin: 0 20px 0 20px;
+        margin: 5px;
         width: 100px;
         height: 100px;
     }

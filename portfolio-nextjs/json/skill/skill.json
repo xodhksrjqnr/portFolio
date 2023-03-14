@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "type": "Language",
+      "values": [
+        "/images/logo/java.svg"
+      ]
+    },
+    {
+      "type": "Framework",
+      "values": [
+        "/images/logo/spring.svg", "/images/logo/react.svg", "/images/logo/next-js.svg"
+      ]
+    },
+    {
+      "type": "Database",
+      "values": [
+        "/images/logo/mysql.svg"
+      ]
+    },
+    {
+      "type": "Deployment",
+      "values": [
+        "/images/logo/vercel.svg"
+      ]
+    },
+    {
+      "type": "Etc",
+      "values": [
+        "/images/logo/github.svg"
+      ]
+    }
+  ]
+}

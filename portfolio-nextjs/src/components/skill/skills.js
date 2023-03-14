@@ -1,22 +1,28 @@
 import styles from '../../styles/skills.module.css'
 import utilsStyles from '../../styles/utils.module.css'
-import Skill from "@/components/skill/skill";
+import Skill from '../../../json/skill/skill.json'
+import Image from "next/image";
 
 export default function Skills() {
-    const frontend = ['/images/skill/react.svg'];
-    const backend = ['/images/skill/java.svg', '/images/skill/spring.svg'];
-    const deployment = ['/images/skill/Github.svg'];
-    const etc = ['/images/skill/Github.svg']
-
     return (
         <div className={styles.container}>
             <div className={utilsStyles.title}>
                 <p className={utilsStyles.p}>SKILLS</p>
             </div>
-            <Skill title="Frontend" src={frontend}/>
-            <Skill title="Backend" src={backend}/>
-            <Skill title="Deployment" src={deployment}/>
-            <Skill title="Etc" src={etc}/>
+            {Skill.skills.map((skill) => (
+                <div key={skill.type} className={styles.list}>
+                    <div className={styles.name}>
+                        <p>{skill.type}</p>
+                    </div>
+                    <div className={styles.content}>
+                        {skill.values.map((img) => (
+                            <div key={img} className={styles.img}>
+                                <Image src={img} fill alt={img}/>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            ))}
         </div>
     )
 };

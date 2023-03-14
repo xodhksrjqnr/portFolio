@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .headingTitle {
         font-size: 1.0rem;
     }
@@ -14,9 +14,13 @@
     .headingLg {
         font-size: 0.8rem;
     }
+
+    .title {
+        font-size: 1.5rem;
+    }
 }
 
-@media screen and (min-width: 321px) and (max-width: 540px) {
+@media screen and (min-width: 401px) and (max-width: 540px) {
     .headingTitle {
         font-size: 1.5rem;
     }

@@ -1,17 +1,18 @@
 import styles from '../../styles/footer.module.css'
-import FooterImg from "@/components/footer/footer-img";
+import footer from '../../../json/footer/footer.json'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
     return (
         <div className={styles.container}>
-            <FooterImg
-                src={"/images/footer/github.svg"}
-                link={"https://github.com/xodhksrjqnr"}
-            />
-            <FooterImg
-                src={"/images/footer/tistory.svg"}
-                link={"https://develop-library.tistory.com/"}
-            />
+            {footer.footer.map((f) => (
+                <div key={f.image} className={styles.footerImg}>
+                    <Link href={f.link}>
+                        <Image src={f.image} width={60} height={60} alt={f.image}/>
+                    </Link>
+                </div>
+            ))}
         </div>
     )
 };

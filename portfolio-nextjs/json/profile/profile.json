@@ -6,12 +6,12 @@
         {
           "name": "beginner",
           "value": "신입",
-          "svg": "/images/profile/career.svg"
+          "svg": "/images/logo-profile/career.svg"
         },
         {
           "name": "birthday",
           "value": "95.10.21",
-          "svg": "/images/profile/age.svg"
+          "svg": "/images/logo-profile/age.svg"
         }
       ]
     },
@@ -21,12 +21,12 @@
         {
           "name": "address",
           "value": "서울특별시 동대문구",
-          "svg": "/images/profile/address.svg"
+          "svg": "/images/logo-profile/address.svg"
         },
         {
           "name": "phone",
           "value": "010-8425-7696",
-          "svg": "/images/profile/phone.svg"
+          "svg": "/images/logo-profile/phone.svg"
         }
       ]
     },
@@ -36,12 +36,12 @@
         {
           "name": "email",
           "value": "xodhks789@gmail.com",
-          "svg": "/images/profile/email.svg"
+          "svg": "/images/logo-profile/email.svg"
         },
         {
           "name": "education",
           "value": "충북대학교 컴퓨터공학",
-          "svg": "/images/profile/education.svg"
+          "svg": "/images/logo-profile/education.svg"
         }
       ]
     }

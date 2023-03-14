@@ -3,11 +3,6 @@
         font-size: 20px;
     }
 
-    .list .content Img {
-        width: 70px;
-        height: 70px;
-    }
-
     .list .content .img {
         margin: 0 5px 0 5px;
         width: 60px;
@@ -28,7 +23,7 @@
 }
 
 .container {
-    padding: 50px 15% 100px 15%;
+    padding: 50px 15% 50px 15%;
     background-color: #FF9900;
 }
 

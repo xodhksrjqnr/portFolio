@@ -12,22 +12,22 @@
     {
       "id": 1,
       "name": "Frontend",
-      "icons": ["/images/skill/react.svg"]
+      "icons": ["/images/logo/react.svg"]
     },
     {
       "id": 2,
       "name": "Backend",
-      "icons": ["/images/skill/spring.svg"]
+      "icons": ["/images/logo/spring.svg"]
     },
     {
       "id": 3,
       "name": "Database",
-      "icons": ["/images/footer/github.svg"]
+      "icons": ["/images/logo-custom/github.svg"]
     },
     {
       "id": 4,
       "name": "Deployment",
-      "icons": ["/images/footer/github.svg"]
+      "icons": ["/images/logo-custom/next-js.svg"]
     }
   ]
 }

@@ -1,7 +1,7 @@
 import styles from '../../styles/projects.module.css'
 import utilsStyles from '../../styles/utils.module.css'
 import Project from "@/components/project/project";
-import Smart from '../../../json/projectJson/smart.json'
+import Smart from '../../../json/project/smart.json'
 
 export default function Projects() {
     return (

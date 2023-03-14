@@ -1,7 +1,7 @@
 import styles from '../../styles/profile.module.css'
 import utilsStyles from '../../styles/utils.module.css'
-import ProfileImg from "@/components/profile/profile-img";
 import Infos from '../../../json/profile/profile.json'
+import Image from "next/image";
 
 export default function Profile() {
     return (
@@ -17,7 +17,7 @@ export default function Profile() {
                             <td key={i.name}>
                                 <div className={styles.content}>
                                     <div className={styles.img}>
-                                        <ProfileImg src={i.svg}/>
+                                        <Image src={i.svg} fill alt={i.svg}/>
                                     </div>
                                     <span>{i.value}</span>
                                 </div>

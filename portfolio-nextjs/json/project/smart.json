@@ -1,6 +1,6 @@
 {
   "title" : "Smart(의류 쇼핑몰 웹 서비스)",
-  "subtitle" : "2023.01 - 2023.02 (2인 개발)",
+  "subtitle" : "2023.01 - 2023.02 (2인 개발, 백엔드 담당)",
   "thumbnail": "https://user-images.githubusercontent.com/115006670/218263799-29d52a9d-27d2-4d0c-b3bd-f3a1a89a37ce.gif",
   "introduces": [
     "의류 쇼핑몰 웹 서비스를 구현한 협업 프로젝트입니다. 학습을 목적으로 진행하여 간단한 형태와 기능의 구현을 목표로 잡았습니다. 제품 CRUD, 회원 CR, 주문 CR 기능이 구현되어 있습니다.",

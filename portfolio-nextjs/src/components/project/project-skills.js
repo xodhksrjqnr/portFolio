@@ -11,7 +11,7 @@ export default function ProjectSkills({skills}) {
                         <td key={skill.name + '_icon'} className={styles.skillImg}>
                             {skill.icons.map((icon) => (
                                 <div key={icon}>
-                                    <Image src={icon} fill alt={icon}/>
+                                    <Image src={icon} fill alt={icon} priority/>
                                 </div>
                             ))}
                         </td>

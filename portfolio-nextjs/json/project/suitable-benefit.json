@@ -1,0 +1,31 @@
+{
+  "title" : "Suitable_Benefit(지원 정책 확인 서비스)",
+  "subtitle" : "2023.03 - 2023.03 (1인 개발)",
+  "thumbnail": "https://test.com/test.jpeg",
+  "introduces": [
+    "국가장학금과 같이 이로운 지원 정책들 중 자신이 지원 가능한 정책들을 편리하게 조회할 수 있는 웹 서비스입니다. 퍼져있는 지원 정책을 한 곳에서 확인하는 편의성을 제공하고자 구현하였습니다.",
+    "기존에 틀만 구현되었던 프로젝트를 리팩토링한 프로젝트입니다. Spring Framework에 대한 이해 심화와 자동 배포 및 운영 관리 경험을 쌓기위해 진행했습니다."
+  ],
+  "functions" : [
+    "지원 정책 리스트 조회", "지원 조건 필터링", "로그인&로그아웃"
+  ],
+  "git": "https://github.com/xodhksrjqnr/toyProject-suitable_benefit",
+  "openURL": null,
+  "skills": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "icons": ["/images/logo/react.svg"]
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "icons": ["/images/logo/spring.svg"]
+    },
+    {
+      "id": 3,
+      "name": "Database",
+      "icons": ["/images/logo/mysql.svg"]
+    }
+  ]
+}

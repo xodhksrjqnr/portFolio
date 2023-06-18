@@ -1,6 +1,6 @@
 {
   "title" : "Need(지원 정책 조회 서비스)",
-  "subtitle" : "2023.03 - 2023.04 (1인 개발)",
+  "subtitle" : "2023.03 - 2023.06 (1인 개발)",
   "thumbnail": "https://user-images.githubusercontent.com/48250370/232802118-7bf450c3-2986-4b6c-a10d-15a6a879fadc.gif",
   "introduces": [
     "국가장학금과 같이 이로운 지원 정책들 중 자신이 지원 가능한 정책들을 편리하게 조회할 수 있는 웹 서비스입니다. 퍼져있는 지원 정책을 한 곳에서 확인하는 편의성을 제공하고자 구현하였습니다.",
@@ -9,23 +9,22 @@
   "functions" : [
     "지원 정책 리스트 조회", "지원 조건 필터링"
   ],
-  "git": "https://github.com/xodhksrjqnr/need/tree/backend",
-  "openURL": null,
-  "skills": [
+  "gitLinks": [
     {
-      "id": 1,
       "name": "Frontend",
-      "icons": ["/images/logo/react.svg"]
+      "url" : "https://github.com/xodhksrjqnr/need-front"
     },
     {
-      "id": 2,
       "name": "Backend",
-      "icons": ["/images/logo/spring.svg"]
+      "url" : "https://github.com/xodhksrjqnr/need-backend"
     },
     {
-      "id": 3,
-      "name": "Database",
-      "icons": ["/images/logo/mysql.svg"]
+      "name": "Admin",
+      "url" : "https://github.com/xodhksrjqnr/need-admin"
     }
+  ],
+  "openURL": "http://13.124.215.170:3000",
+  "skills": [
+    "/images/logo/react.svg", "/images/logo/spring.svg", "/images/logo/mysql.svg"
   ]
 }

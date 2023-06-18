@@ -13,7 +13,7 @@ export default function Projects() {
                 <p className={utilsStyles.p}>PROJECTS</p>
             </div>
             <Project project={Benefit}/>
-            <Project project={Portfolio}/>
+            {/*<Project project={Portfolio}/>*/}
             <Project project={Smart}/>
         </div>
     )

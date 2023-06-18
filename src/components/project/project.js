@@ -32,7 +32,7 @@ export default function Project({project}) {
                     <ProjectSkills skills={project.skills}/>
                 </div>
             </div>
-            <ProjectDetail gitLink={project.git} openURL={project.openURL}/>
+            <ProjectDetail gitLinks={project.gitLinks} openURL={project.openURL}/>
         </div>
     )
 };

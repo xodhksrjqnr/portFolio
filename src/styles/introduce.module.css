@@ -1,0 +1,35 @@
+@media screen and (max-width: 540px) {
+    .borderCircle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 541px) {
+    .borderCircle {
+
+    }
+}
+
+.container {
+    background-image: url('../../public/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    text-align: center;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
+
+.container .url {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container .url Img {
+    background-color: white;
+    border-radius: 9999px;
+}

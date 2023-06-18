@@ -1,0 +1,99 @@
+@media screen and (max-width: 540px) {
+    .headingTitle {
+        font-size: 1.0rem;
+    }
+
+    .headingSubTitle {
+        font-size: 0.7rem;
+    }
+
+    .heading2Xl {
+        font-size: 1.2rem;
+    }
+
+    .headingLg {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 541px) {
+    .headingTitle {
+        font-size: 2.5rem;
+    }
+
+    .headingSubTitle {
+        font-size: 1rem;
+    }
+
+    .heading2Xl {
+        font-size: 2.5rem;
+    }
+
+    .headingXl {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+.headingTitle {
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    color: black;
+}
+
+.headingSubTitle {
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    color: gray;
+}
+
+.heading2Xl {
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.headingXl {
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.headingLg {
+    line-height: 1.4;
+    margin: 1rem 0;
+    color: white;
+}
+
+.headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.p {
+    color: white;
+}
+
+.title {
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    color: black;
+    text-align: center;
+    margin: 0 0 80px 0;
+}

@@ -68,8 +68,8 @@
     }
 
     .projectSkills .skillImg div {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -109,8 +109,8 @@
     }
 
     .projectSkills .skillImg div {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -175,7 +175,7 @@
     color: white;
     display: inline;
     border: none;
-    margin: 0 10px 0 10px;
+    margin: 5px;
 }
 
 /*project-skills*/
@@ -192,5 +192,5 @@
 }
 
 .projectSkills .skillImg div {
-    margin-left: 10px;
+    margin-right: 10px;
 }

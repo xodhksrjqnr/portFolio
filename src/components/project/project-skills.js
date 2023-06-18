@@ -8,7 +8,7 @@ export default function ProjectSkills({skills}) {
             <tr>
                 {skills.map((skill)=> (
                     <td key={skill} className={styles.skillImg}>
-                        <div>
+                        <div className={styles.skillImgBox}>
                             <Image src={skill} fill alt={skill} priority/>
                         </div>
                     </td>

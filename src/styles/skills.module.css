@@ -17,8 +17,8 @@
 
     .list .content .img {
         margin: 5px;
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        aspect-ratio: 1/1;
     }
 }
 

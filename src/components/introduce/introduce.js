@@ -21,7 +21,7 @@ export default function Introduce() {
             <div className={styles.url}>
                 {URLS.url.map((u) => (
                     <div key={u.image}>
-                        <Link href={u.link}>
+                        <Link href={u.link} target='_blank'>
                             <Image src={u.image} width={40} height={40} alt={u.image}/>
                         </Link>
                     </div>

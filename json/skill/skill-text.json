@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "type": "Language",
+      "values": [
+        "java", "html", "css"
+      ]
+    },
+    {
+      "type": "Frame & Lib",
+      "values": [
+        "spring", "react", "next-js"
+      ]
+    },
+    {
+      "type": "Database",
+      "values": [
+        "mysql"
+      ]
+    },
+    {
+      "type": "Etc",
+      "values": [
+        "github", "aws ec2", "github actions", "docker", "vercel"
+      ]
+    }
+  ]
+}

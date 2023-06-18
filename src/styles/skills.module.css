@@ -29,6 +29,7 @@
 
 .list {
     margin-bottom: 50px;
+    display: inline-block;
 }
 
 .name {
@@ -59,4 +60,24 @@
 
 .list .content .img {
     position: relative;
+}
+
+/*text version*/
+
+.table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #FF9900;
 }

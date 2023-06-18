@@ -4,7 +4,7 @@ import Project from "@/components/project/project";
 
 import Smart from '../../../json/project/smart.json'
 import Portfolio from '../../../json/project/portfolio.json'
-import Benefit from '../../../json/project/suitable-benefit.json'
+import Benefit from '../../../json/project/need.json'
 
 export default function Projects() {
     return (

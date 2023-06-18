@@ -64,20 +64,42 @@
 
 /*text version*/
 
-.table {
-    margin: auto;
-    border-collapse: separate;
-    border-spacing: 20px 20px;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
+@media screen and (max-width: 541px) {
+    .table {
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .text {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 5px;
+        color: #FF9900;
+    }
 }
 
-.text {
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin-top: 5px;
-    color: #FF9900;
+@media screen and (min-width: 540px) {
+    .table {
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 20px 20px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .text {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 5px;
+        color: #FF9900;
+    }
 }

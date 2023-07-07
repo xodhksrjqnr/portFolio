@@ -19,6 +19,12 @@ export default function Project({project}) {
                         fill
                         alt={project.thumbnail}
                     />
+                    <Image
+                        src={project.architecture}
+                        priority
+                        fill
+                        alt={project.architecture}
+                    />
                 </div>
                 <div className={styles.content}>
                     <p className={styles.projectP}>프로젝트 설명</p>
@@ -30,14 +36,6 @@ export default function Project({project}) {
                         <p key={func}>• {func}</p>
                     ))}
                     <ProjectSkills skills={project.skills}/>
-                </div>
-                <div className={styles.img}>
-                    <Image
-                        src={project.architecture}
-                        priority
-                        fill
-                        alt={project.architecture}
-                    />
                 </div>
             </div>
             <ProjectDetail gitLinks={project.gitLinks} openURL={project.openURL}/>

@@ -33,7 +33,7 @@ export default function Project({project}) {
                     {project.introduces.map((paragraph) => (
                         <p key={paragraph} className={styles.introduce}>{paragraph}</p>
                     ))}
-                    <p className={styles.projectP}>주요 기능</p>
+                    <p className={styles.projectP}>특징</p>
                     {project.functions.map((func) => (
                         <p key={func}>• {func}</p>
                     ))}

@@ -19,6 +19,8 @@ export default function Project({project}) {
                         fill
                         alt={project.thumbnail}
                     />
+                </div>
+                <div className={styles.img}>
                     <Image
                         src={project.architecture}
                         priority

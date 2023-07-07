@@ -31,6 +31,14 @@ export default function Project({project}) {
                     ))}
                     <ProjectSkills skills={project.skills}/>
                 </div>
+                <div className={styles.img}>
+                    <Image
+                        src={project.architecture}
+                        priority
+                        fill
+                        alt={project.architecture}
+                    />
+                </div>
             </div>
             <ProjectDetail gitLinks={project.gitLinks} openURL={project.openURL}/>
         </div>

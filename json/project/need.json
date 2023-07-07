@@ -6,7 +6,10 @@
     "국가장학금과 같이 이로운 지원 정책들 중 자신이 지원 가능한 정책들을 편리하게 조회할 수 있는 웹 서비스입니다. 퍼져있는 지원 정책을 한 곳에서 확인하는 편의성을 제공하고자 구현하였습니다."
   ],
   "functions" : [
-    "각 도메인(Post, Benefit, Job)에 대한 API 설계 및 구현", "백엔드 서버 분리 : Service Side, Admin Side", "AWS EC2를 이용한 클라우드 서비스 운영", "Docker, Github Actions를 이용한 빌드 및 배포 자동화"
+    "각 도메인(Post, Benefit, Job)에 대한 API 설계 및 구현", "CORS 설정", "백엔드 서버 분리 : Service Side, Admin Side", "AWS EC2를 이용한 클라우드 서비스 운영", "Docker, Github Actions를 이용한 빌드 및 배포 자동화"
+  ],
+  "takeaway" : [
+    "CI/CD의 중요성에 대해 알 수 있었습니다.", "운영 시점에서의 안정성과 확장성에 대해 고민해 볼 수 있었습니다."
   ],
   "gitLinks": [
     {

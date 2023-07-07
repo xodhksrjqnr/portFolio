@@ -37,6 +37,10 @@ export default function Project({project}) {
                     {project.functions.map((func) => (
                         <p key={func}>• {func}</p>
                     ))}
+                    <p className={styles.projectP}>배운점</p>
+                    {project.takeaway.map((take) => (
+                        <p key={take}>• {take}</p>
+                    ))}
                     <ProjectSkills skills={project.skills}/>
                 </div>
             </div>

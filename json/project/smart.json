@@ -10,7 +10,7 @@
     "프로젝트는 마무리되었지만 개인적인 리팩토링 과정으로 코드의 응집성 및 기능 향상을 진행하고 있습니다."
   ],
   "functions" : [
-    "JWT 기반의 로그인, 로그아웃 인증 구현", "회원가입(이메일 인증)", "제품 등록 및 필터 조회", "제품 주문 취소 및 환불", "장바구니"
+    "각 도메인(Post, Member, Category, CategoryItem, Order, OrderItem)에 대한 API 설계 및 구현", "로그인, 로그아웃, 회원 가입, 메일 인증, ID/PW 찾기 API 구현", "API 명세 작성", "Junit과 Mockito를 이용한 메서드 별 단위 테스트 구현 & 도메인 별 통합 테스트 구현", "JWT 기반의 로그인, 로그아웃 인증 구현", "예외 통합 처리를 위한 ExceptionHandler 구현", "원활한 협업을 위한 Github To-Do List 활용"
   ],
   "gitLinks": [
     {

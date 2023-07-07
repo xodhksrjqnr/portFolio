@@ -9,7 +9,7 @@
     {
       "type": "Frame & Lib",
       "values": [
-        "spring", "react", "next-js"
+        "spring boot", "reactjs", "nextjs"
       ]
     },
     {
@@ -21,7 +21,7 @@
     {
       "type": "Etc",
       "values": [
-        "github", "aws ec2", "github actions", "docker", "vercel"
+        "github", "github actions", "aws ec2", "docker", "vercel"
       ]
     }
   ]

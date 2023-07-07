@@ -9,7 +9,7 @@
     "각 도메인(Post, Benefit, Job)에 대한 API 설계 및 구현", "CORS 설정", "백엔드 서버 분리 : Service Side, Admin Side", "AWS EC2를 이용한 클라우드 서비스 운영", "Docker, Github Actions를 이용한 빌드 및 배포 자동화"
   ],
   "takeaway" : [
-    "CI/CD의 중요성에 대해 알 수 있었습니다.", "운영 시점에서의 안정성과 확장성에 대해 고민해 볼 수 있었습니다."
+    "CI/CD의 중요성", "운영 시점에서의 안정성과 확장성에 대한 고민"
   ],
   "gitLinks": [
     {

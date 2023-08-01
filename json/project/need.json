@@ -26,7 +26,7 @@
     }
   ],
   "architecture": "https://user-images.githubusercontent.com/48250370/251629353-2f23522a-f0ce-4018-b1b9-700538ad5c50.png",
-  "openURL": "http://113.30.39.238:3000",
+  "openURL": "http://43.202.125.76:3000/",
   "skills": [
     "/images/logo/react.svg", "/images/logo/spring.svg", "/images/logo/mysql.svg",
     "/images/logo/docker.svg", "/images/logo/awsec2.svg", "/images/logo/actions.svg"
